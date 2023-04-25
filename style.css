@@ -25,7 +25,6 @@ p{
 h1{
     color: var(--almost-black);
 }
-
 .nav-btn:focus, .btn-close, .accordion-item, .accordion-button, .dropdown-menu{
     border: none !important;
     box-shadow: none !important;
@@ -47,18 +46,16 @@ h1{
 .image-hero-desktop{
     width: 38%;
 }
-
 .hero-content1 h1{
     font-size: 4.5rem;
     font-weight: 700;
     margin-top: 5.8rem;
 }
-
 .cto-btn:hover{
     background-color: var(--almost-white) !important;
     color: var(--almost-black) !important;
 }
-
+/* Media query */
 @media (max-width: 768px){
     .hero{
         width: 100%;
